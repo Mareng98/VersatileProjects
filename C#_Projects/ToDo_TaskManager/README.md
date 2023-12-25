@@ -19,6 +19,4 @@ ToDo Task Manager is a simple task management application built with C#.
 
 ## Getting Started
 
-1. Clone the repository.
-   ```sh
-   git clone https://github.com/Mareng98/VersatileProjects/tree/main/C%23_Projects/ToDo_TaskManager.git
+1. Clone the repository and build.
