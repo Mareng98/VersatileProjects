@@ -1,0 +1,88 @@
+﻿<Window x:Class="GroceryListManager.GroceryTypesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GroceryListManager"
+        mc:Ignorable="d"
+        Title="Edit Available Groceries" Height="450" Width="800" Icon="/Resources/grocerybasket.ico">
+    <Window.Resources>
+        <Style x:Key="ModernButtonStyle" TargetType="Button">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Offset="0" Color="#FFFFEF"/>
+                        <GradientStop Offset="1" Color="#FFDDDD"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="GradientRowStyleDark" TargetType="Grid">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="lightGray" Offset="0"/>
+                        <GradientStop Color="WhiteSmoke" Offset="0.1"/>
+                        <GradientStop Color="White" Offset="0.3"/>
+                        <GradientStop Color="WhiteSmoke" Offset="0.5"/>
+                        <GradientStop Color="WhiteSmoke" Offset="0.9"/>
+                        <GradientStop Color="lightGray" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--Menu Bar-->
+        <Grid Grid.Row="0">
+            <DockPanel>
+                <Menu DockPanel.Dock="Top">
+                    <MenuItem Header="_File">
+                        <MenuItem Header="_New" Click="menuNew_Click"/>
+                        <MenuItem Header="_Open Available Groceries" Click="menuOpen_Click"/>
+                        <MenuItem Header="_Save As..." Click="menuSaveAs_Click"/>
+                    </MenuItem>
+                    <MenuItem Header="Help">
+                        <MenuItem Header="About..." Click="menuAbout_Click"/>
+                    </MenuItem>
+                </Menu>
+            </DockPanel>
+        </Grid>
+        <!--DataGrid-->
+        <Grid Grid.Row="1" Margin="10,0,10,0" >
+            <DataGrid x:Name="dataGrid" IsSynchronizedWithCurrentItem="False" CanUserSortColumns="False" SelectionMode="Single" CanUserAddRows="true" AutoGenerateColumns="False" AlternatingRowBackground="#FFE0E0E0">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Grocery Description" Width="0.5*" IsReadOnly="false" Binding="{Binding Description}"/>
+                    <DataGridTextColumn Header="Cost per Unit (kr)" Width="0.15*" IsReadOnly="false" Binding="{Binding Cost}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <!--File load notice-->
+        <Grid Grid.Row="2" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Name="labelFileLoadNotice" Margin="10,0,10,0" Foreground="#FFA57200"></Label>
+        </Grid>
+        <!--Buttons-->
+        <Grid Grid.Row="3" Height="50" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Bottom" Style="{StaticResource GradientRowStyleDark}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="160"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="80"></ColumnDefinition>
+                <ColumnDefinition Width="80"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Name="btnRemoveGrocery" Margin="10" Grid.Column="0" Content="Remove Grocery" Style="{StaticResource ModernButtonStyle}" Click="btnRemoveGrocery_Click"></Button>
+            <Button Name="btnSave" Margin="10" Grid.Column="2" Style="{StaticResource ModernButtonStyle}" IsDefault="True" Click="btnSave_Click">Save</Button>
+            <Button Name="btnCancel" Margin="10" Grid.Column="3" Style="{StaticResource ModernButtonStyle}" Click="btnCancel_Click">Cancel</Button>
+        </Grid>
+    </Grid>
+</Window>
