@@ -1,4 +1,8 @@
-# Grocery List Manager Demo
+# Grocery List Manager
+![Grocery List Manager - Grocery List Window](Preview/MainWindow.png)
+![Grocery List Manager - Edit Grocery Types Window](Preview/EditAvailableGroceryTypesWindow.png)
+
+## Grocery List Manager Demo
 
 Grocery List Manager is a simple WPF application that allows users to manage their grocery items. This demo version includes an executable file for easy testing.
 
