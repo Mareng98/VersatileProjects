@@ -1,6 +1,8 @@
 # Grocery List Manager
-![Grocery List Manager - Grocery List Window](Preview/MainWindow.png)
-![Grocery List Manager - Edit Grocery Types Window](Preview/EditAvailableGroceryTypesWindow.png)
+<div style="display: flex; justify-content: space-between;">
+    <img src="Preview/MainWindow.png" alt="Grocery List Manager - Grocery List Window" width="48%">
+    <img src="Preview/EditAvailableGroceryTypesWindow.png" alt="Grocery List Manager - Edit Grocery Types Window" width="48%">
+</div>
 
 ## Grocery List Manager Demo
 
