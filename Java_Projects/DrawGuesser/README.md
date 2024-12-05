@@ -2,7 +2,7 @@
 
 **DrawServer** and **DrawClient** are components of a fun and interactive guessing game where friends can connect to the server for a round of guessing what the painter is drawing. One player acts as the painter, and others try to guess the drawing in real-time. The game continues until everyone has had a chance to draw.
 
-![GUI](Java_Projects/DrawGuesser/GUI.png)
+![GUI](GUI.png)
 
 ## Prerequisites
 
