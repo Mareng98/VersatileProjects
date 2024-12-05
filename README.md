@@ -1,11 +1,9 @@
 # VersatileProjects
 This repo showcases some smaller programs I've made.
 
-## Projects
+## Java Projects
 
-### Java Projects
-
-#### 1. DrawGuesser : Distributed Drawing Game
+### 1. DrawGuesser : Distributed Drawing Game
 
 **Description:**
 DrawGuesser is a multiplayer drawing game where players connect to a central server to guess what another player is drawing. One player acts as the artist, while the other players try to guess the drawing in real-time. The game is fun and interactive, encouraging creativity and quick thinking among players.
@@ -19,9 +17,9 @@ DrawGuesser is a multiplayer drawing game where players connect to a central ser
 
 ---
 
-### C# Projects
+## C# Projects
 
-#### 2. WPF Grocery List Manager
+### 2. WPF Grocery List Manager
 
 **Description:**
 The WPF Grocery List Manager is a C# program built using Windows Presentation Foundation (WPF). It provides a user-friendly interface for managing your grocery lists. Users can add, edit, and delete items, making it easy to keep track of what you need to buy during your next shopping trip.
@@ -33,7 +31,7 @@ The WPF Grocery List Manager is a C# program built using Windows Presentation Fo
 
 ---
 
-#### 3. Windows Forms ToDo TaskManager
+### 3. Windows Forms ToDo TaskManager
 
 **Description:**
 ToDo TaskManager is a C# program developed using Windows Forms. It serves as a task management application, allowing users to create, organize, and mark tasks as completed. The straightforward interface makes it convenient to stay organized and prioritize your to-do list.
