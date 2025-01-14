@@ -32,7 +32,7 @@ increasing training stability, and increasing evaluation accuracy through an abl
 
 ## C# Projects
 
-### 3. [WPF Grocery List Manager](C#_Projects/GroceryListManager_Project)
+### 3. [WPF Grocery List Manager](C%23_Projects/GroceryListManager_Project)
 
 **Description:**
 The WPF Grocery List Manager is a C# program built using Windows Presentation Foundation (WPF). It provides a user-friendly interface for managing your grocery lists. Users can add, edit, and delete items, making it easy to keep track of what you need to buy during your next shopping trip.
@@ -44,7 +44,7 @@ The WPF Grocery List Manager is a C# program built using Windows Presentation Fo
 
 ---
 
-### 4. [Windows Forms ToDo TaskManager](C#_Projects/ToDo_TaskManager)
+### 4. [Windows Forms ToDo TaskManager](C%23_Projects/ToDo_TaskManager)
 
 **Description:**
 ToDo TaskManager is a C# program developed using Windows Forms. It serves as a task management application, allowing users to create, organize, and mark tasks as completed. The straightforward interface makes it convenient to stay organized and prioritize your to-do list.
