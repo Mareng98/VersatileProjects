@@ -27,7 +27,7 @@ increasing training stability, and increasing evaluation accuracy through an abl
 **Features:**
 - **CNN architecture:** Five different models were tested and compared.
 - **Statistical analysis:** Analysis of the result and how to improve the base model, including an ablation study.
-
+[CNN Tree Species Classification](AI_Projects/tree_identification)
 ---
 
 ## C# Projects
