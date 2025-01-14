@@ -25,7 +25,7 @@ In this analysis, three techniques are used to improve a baseline CNN architectu
 increasing training stability, and increasing evaluation accuracy through an ablation study. The final model utilizing all of the techniques reached a maximum accuracy of 77.2%, which was an improvement of 12.67% over the baseline model. When extended to classify in distribution and out of distribution samples with the use of K-Means clustering on the features from the output layer, the new model achieved 95.3% accuracy.
 
 **Features:**
-- **CNN architecture:** Five different models were tested and compared.
+- **CNN architecture with PyTorch:** Five different models were tested and compared.
 - **Statistical analysis:** Analysis of the result and how to improve the base model, including an ablation study.
 
 ---
