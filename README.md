@@ -18,7 +18,7 @@ DrawGuesser is a multiplayer drawing game where players connect to a central ser
 ---
 ## AI Projects
 
-### 2. CNN Tree Species Classification
+### 2. CNN Tree Species Classification [Link](AI_Projects/tree_identification)
 
 **Description:**
 In this analysis, three techniques are used to improve a baseline CNN architecture with the task to classify twelve unique species of trees from a dataset containing textures of tree bark. The techniques used were standardizing the image data, adding batch normalization, and using early stopping. These techniques were proven to be effective for reducing overfitting, decreasing training time,
@@ -27,7 +27,7 @@ increasing training stability, and increasing evaluation accuracy through an abl
 **Features:**
 - **CNN architecture:** Five different models were tested and compared.
 - **Statistical analysis:** Analysis of the result and how to improve the base model, including an ablation study.
-[CNN Tree Species Classification](AI_Projects/tree_identification)
+
 ---
 
 ## C# Projects
