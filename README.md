@@ -21,21 +21,8 @@ DrawGuesser is a multiplayer drawing game where players connect to a central ser
 ### 2. CNN Tree Species Classification
 
 **Description:**
-In this analysis, three techniques are used to im-
-prove a baseline CNN architecture with the task to clas-
-sify twelve unique species of trees from a dataset contain-
-ing textures of tree bark. The techniques used were stan-
-dardizing the image data, adding batch normalization, and
-using early stopping. These techniques were proven to be
-effective for reducing overfitting, decreasing training time,
-increasing training stability, and increasing evaluation ac-
-curacy through an ablation study. The final model utiliz-
-ing all of the techniques reached a maximum accuracy of
-77.2%, which was an improvement of 12.67% over the base-
-line model. When extended to classify in distribution and
-out of distribution samples with the use of K-Means clus-
-tering on the features from the output layer, the new model
-achieved 95.3% accuracy.
+In this analysis, three techniques are used to improve a baseline CNN architecture with the task to classify twelve unique species of trees from a dataset containing textures of tree bark. The techniques used were standardizing the image data, adding batch normalization, and using early stopping. These techniques were proven to be effective for reducing overfitting, decreasing training time,
+increasing training stability, and increasing evaluation accuracy through an ablation study. The final model utilizing all of the techniques reached a maximum accuracy of 77.2%, which was an improvement of 12.67% over the baseline model. When extended to classify in distribution and out of distribution samples with the use of K-Means clustering on the features from the output layer, the new model achieved 95.3% accuracy.
 
 **Features:**
 - **CNN architecture:** Five different models were tested and compared.
