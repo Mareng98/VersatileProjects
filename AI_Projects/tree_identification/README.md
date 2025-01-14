@@ -1,4 +1,4 @@
-# Tree Species Classification with Torch
+# Tree Species Classification with PyTorch
 This project focuses on tree classification and analysing how different architectures and machine learning techniques can improve classification. It uses Jupyter Notebook for analysis, visualization, and data exploration.
 
 # Usage
