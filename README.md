@@ -26,7 +26,7 @@ increasing training stability, and increasing evaluation accuracy through an abl
 
 **Features:**
 - **CNN architecture with PyTorch:** Five different models were tested and compared.
-- **Statistical analysis:** Analysis of the result and how to improve the base model, including an ablation study.
+- **Statistical analysis:** Analysis of the result and how to improve the baseline model, including an ablation study.
 
 ---
 
