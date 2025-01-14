@@ -3,7 +3,7 @@ This repo showcases some smaller programs I've made.
 
 ## Java Projects
 
-### 1. DrawGuesser : Distributed Drawing Game
+### 1. [DrawGuesser : Distributed Drawing Game](Java_Projects/DrawGuesser)
 
 **Description:**
 DrawGuesser is a multiplayer drawing game where players connect to a central server to guess what another player is drawing. One player acts as the artist, while the other players try to guess the drawing in real-time. The game is fun and interactive, encouraging creativity and quick thinking among players.
@@ -18,7 +18,7 @@ DrawGuesser is a multiplayer drawing game where players connect to a central ser
 ---
 ## AI Projects
 
-### 2. CNN Tree Species Classification [Link](AI_Projects/tree_identification)
+### 2. [CNN Tree Species Classification](AI_Projects/tree_identification)
 
 **Description:**
 In this analysis, three techniques are used to improve a baseline CNN architecture with the task to classify twelve unique species of trees from a dataset containing textures of tree bark. The techniques used were standardizing the image data, adding batch normalization, and using early stopping. These techniques were proven to be effective for reducing overfitting, decreasing training time,
