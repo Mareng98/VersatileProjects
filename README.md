@@ -16,10 +16,36 @@ DrawGuesser is a multiplayer drawing game where players connect to a central ser
 - **Multithreading:** The system utilizes multithreading for smooth multiplayer functionality.
 
 ---
+## AI Projects
+
+### 2. CNN Tree Species Classification
+
+**Description:**
+In this analysis, three techniques are used to im-
+prove a baseline CNN architecture with the task to clas-
+sify twelve unique species of trees from a dataset contain-
+ing textures of tree bark. The techniques used were stan-
+dardizing the image data, adding batch normalization, and
+using early stopping. These techniques were proven to be
+effective for reducing overfitting, decreasing training time,
+increasing training stability, and increasing evaluation ac-
+curacy through an ablation study. The final model utiliz-
+ing all of the techniques reached a maximum accuracy of
+77.2%, which was an improvement of 12.67% over the base-
+line model. When extended to classify in distribution and
+out of distribution samples with the use of K-Means clus-
+tering on the features from the output layer, the new model
+achieved 95.3% accuracy.
+
+**Features:**
+- **CNN architecture:** Five different models were tested and compared.
+- **Statistical analysis:** Analysis of the result and how to improve the base model, including an ablation study.
+
+---
 
 ## C# Projects
 
-### 2. WPF Grocery List Manager
+### 3. WPF Grocery List Manager
 
 **Description:**
 The WPF Grocery List Manager is a C# program built using Windows Presentation Foundation (WPF). It provides a user-friendly interface for managing your grocery lists. Users can add, edit, and delete items, making it easy to keep track of what you need to buy during your next shopping trip.
@@ -31,7 +57,7 @@ The WPF Grocery List Manager is a C# program built using Windows Presentation Fo
 
 ---
 
-### 3. Windows Forms ToDo TaskManager
+### 4. Windows Forms ToDo TaskManager
 
 **Description:**
 ToDo TaskManager is a C# program developed using Windows Forms. It serves as a task management application, allowing users to create, organize, and mark tasks as completed. The straightforward interface makes it convenient to stay organized and prioritize your to-do list.
